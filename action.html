@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Movie Listings</title>
+    <style>
+
+nav a {
+    display: flex;
+    background-color:rgba(236, 234, 234, 0.8);
+    color: #fff;
+    padding: 30px 30px;
+    text-decoration: none;
+    
+}
+nav a:hover {
+    background-color: #444; 
+}
+        body {
+            background-image: url('free.jpg');
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .movie-card {
+            display: flex;
+            background-color:rgba(236, 234, 234, 0.8);
+            padding: 15px;
+            margin-bottom: 20px;
+            
+            border-radius: 8px;
+            align-items: flex-start;
+            
+        }
+        .movie-card:hover {
+            background-color:darkgray;
+        }
+        .movie-poster {
+            width: 150px;
+            height: 150px;
+            margin-right: 20px;
+        }
+        /* .movie-details {
+            flex: 1;
+        } */
+        .movie-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .movie-meta {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .movie-rating {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+        }
+
+        
+
+        .description {
+            margin-top: 10px;
+            color: #333;
+        }
+      
+    </style>
+</head>
+<body>
+    <div style="background-color: rgba(236, 234, 234, 0.8);padding: 3px;">
+        <h1 style="margin-left: 500px;">Action Movie Recommendation</h1>
+
+    </div>
+    <br><br><br>
+    <header>
+ 
+        <nav>
+            <a href="index.html">Home</a>
+ 
+        </nav>
+    </header>
+    <br>
+
+    <div class="movie-card">
+        <img class="movie-poster" src="kill.jpg" alt="kill Poster" >
+        <div class>
+            <div class="movie-title">1.Kill</div>
+            <div class="movie-meta">2024 | 1h 45m | R</div>
+            <div class="movie-rating">
+                10/10
+            </div>
+            <div class="description">A train to New Delhi becomes a combat battleground as a pair of commandos faces off against an army of invading bandits.</div>
+        </div>
+    </div>
+
+    <div class="movie-card">
+        <img class="movie-poster" src="johnwick.jpg" alt="John Wick Poster">
+        <div class>
+            <div class="movie-title">2.John Wick</div>
+            <div class="movie-meta">2014 | 1h 41m | 18+</div>
+            <div class="movie-rating">
+                10/10
+            </div>
+            <div class="description">John Wick, a retired hitman, is forced to return to his old ways after a group of Russian gangsters steal his car and kill a puppy gifted to him by his late wife.</div>
+        </div>
+    </div>
+
+    <div class="movie-card">
+        <img class="movie-poster" src="Raid.jpg" alt="The Raid Poster">
+        <div class>
+            <div class="movie-title">3. The Raid</div>
+            <div class="movie-meta">2011 | 1h 41m | 18+</div>
+            <div class="movie-rating">
+                9/10
+                
+            </div>
+            <div class="description">After getting trapped in a 30-storey safe house belonging to a drug lord, Tama, a group of police officers must do everything to survive and take him down..</div>
+        </div>
+    </div>
+
+    <div class="movie-card">
+        <img class="movie-poster" src="Thallumaala.jpg" alt="Thallumaala Poster">
+        <div class>
+            <div class="movie-title">4. Thallumaala</div>
+            <div class="movie-meta">2022 | 2h 27m | 18</div>
+            <div class="movie-rating">
+               8/10
+                
+            </div>
+            <div class="description">
+                Wazim, an ill-tempered young man, constantly finds himself involved in fights. The tables however turn when his adversaries set out to seek revenge on his wedding day.</div>
+        </div>
+    </div>
+
+</body>
+</html>

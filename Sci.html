@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Listings</title>
+    <style>
+
+nav a {
+    display: flex;
+    background-color:rgba(236, 234, 234, 0.8);
+    color: #fff;
+    padding: 30px 30px;
+    text-decoration: none;
+    
+}
+nav a:hover {
+    background-color: #444; 
+}
+        body {
+            background-image: url('free.jpg');
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .movie-card {
+            display: flex;
+            background-color:rgba(236, 234, 234, 0.8);
+            padding: 15px;
+            margin-bottom: 20px;
+
+            border-radius: 8px;
+            align-items: flex-start;
+        }
+        .movie-card:hover {
+            background-color:darkgray;
+        }
+        .movie-poster {
+            width: 150px;
+            height: 150px;
+            margin-right: 20px;
+        }
+
+        .movie-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .movie-meta {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .movie-rating {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+        }
+        .description {
+            margin-top: 10px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div style="background-color: rgba(236, 234, 234, 0.8);padding: 3px;">
+        <h1 style="margin-left: 500px;">Sci-Fi Movie Recommendation</h1>
+    </div>
+    <br><br><br>
+    <header>
+ 
+        <nav>
+            <a href="index.html">Home</a>
+ 
+        </nav>
+    </header>
+    <br>
+
+    <div class="movie-card">
+        <img class="movie-poster" src="interstellar.jpg" alt="Interstellar Poster">
+        <div class>
+            <div class="movie-title">1. Interstellar</div>
+            <div class="movie-meta">2014 | 2h 49m | PG-13</div>
+            <div class="movie-rating">
+                10/10
+            </div>
+            <div class="description">A team of explorers travels through a wormhole in space in an attempt to ensure humanity's survival as Earth faces environmental collapse.</div>
+        </div>
+    </div>
+
+    <div class="movie-card">
+        <img class="movie-poster" src="the-matrix.jpg" alt="The Matrix Poster">
+        <div class>
+            <div class="movie-title">2. The Matrix</div>
+            <div class="movie-meta">1999 | 2h 16m | R</div>
+            <div class="movie-rating">
+                10/10
+            </div>
+            <div class="description">
+                A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.</div>
+        </div>
+    </div>
+
+    <div class="movie-card">
+        <img class="movie-poster" src="blade-runner.jpg" alt="Blade Runner 2049 Poster">
+        <div class>
+            <div class="movie-title">3. Blade Runner 2049</div>
+            <div class="movie-meta">2017 | 2h 44m | R</div>
+            <div class="movie-rating">
+                9/10
+            </div>
+            <div class="description">Young Blade Runner K's discovery of a long-buried secret leads him to track down former Blade Runner Rick Deckard, who's been missing for thirty years.</div>
+        </div>
+    </div>
+
+    <div class="movie-card">
+        <img class="movie-poster" src="inception.jpg" alt="Inception Poster">
+        <div class>
+            <div class="movie-title">4. Inception</div>
+            <div class="movie-meta">2010 | 2h 28m | PG-13</div>
+            <div class="movie-rating">
+                9/10
+            </div>
+            <div class="description">
+                A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.</div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Movie Listings</title>
+    <style>
+
+nav a {
+    display: flex;
+
+    background-color:rgba(236, 234, 234, 0.8);
+    color: #fff;
+    padding: 30px 30px;
+    text-decoration: none;
+    
+}
+nav a:hover {
+    background-color: #444; 
+}
+        body {
+            background-image: url('free.jpg');
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .movie-card {
+            display: flex;
+            background-color:rgba(236, 234, 234, 0.8);
+            padding: 15px;
+            margin-bottom: 20px;
+            
+            border-radius: 8px;
+            align-items: flex-start;
+            
+        }
+        .movie-card:hover {
+            background-color:darkgray;
+        }
+        .movie-poster {
+            width: 150px;
+            height: 150px;
+            margin-right: 20px;
+        }
+
+        .movie-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .movie-meta {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .movie-rating {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+        }
+
+        
+
+        .description {
+            margin-top: 10px;
+            color: #333;
+        }
+      
+    </style>
+</head>
+<body>
+    <div style="background-color: rgba(236, 234, 234, 0.8);padding: 3px;">
+        <h1 style="margin-left: 500px;">Mystery Movie Recommendation</h1>
+
+    </div>
+    <br><br><br>
+    <header>
+ 
+        <nav>
+            <a href="index.html">Home</a>
+ 
+        </nav>
+    </header>
+
+    <br>
+    <div class="movie-card">
+        <img class="movie-poster" src="Get Out.jpg" alt="Get Out Poster" >
+        <div class>
+            <div class="movie-title">1.Get Out</div>
+            <div class="movie-meta">2017 | 1h 48m | R</div>
+            <div class="movie-rating">
+                10/10
+            </div>
+            <div class="description">Chris, an African-American man, decides to visit his Caucasian girlfriend's parents during a weekend getaway. Although they seem normal at first, he is not prepared to experience the horrors ahead.</div>
+        </div>
+    </div>
+
+    <div class="movie-card">
+        <img class="movie-poster" src="Seven.jpg" alt="Seven Poster">
+        <div class>
+            <div class="movie-title">2.Seven</div>
+            <div class="movie-meta">1995 |  2h 7m | 18+</div>
+            <div class="movie-rating">
+                10/10
+            </div>
+            <div class="description">Detectives Somerset and Mills, one a seasoned cop, the other a relatively new one, are paired up to solve murders. Together they attempt to find a killer who is inspired by the seven deadly sins.</div>
+        </div>
+    </div>
+
+    <div class="movie-card">
+        <img class="movie-poster" src="Oldboy.jpg" alt="Oldboy Poster">
+        <div class>
+            <div class="movie-title">3. Oldboy</div>
+            <div class="movie-meta">2003 | 1h 41m  | 18+</div>
+            <div class="movie-rating">
+                9/10
+                
+            </div>
+            <div class="description">A man, held captive for no apparent reason for years, is given a cell phone, money and expensive clothes and released. Unless he finds out the identity of his captor, an even worse fate awaits him.
+                .</div>
+        </div>
+    </div>
+
+    <div class="movie-card">
+        <img class="movie-poster" src="Shutter Island.jpg" alt="Shutter Island Poster">
+        <div class>
+            <div class="movie-title">4. Shutter Island</div>
+            <div class="movie-meta">2010 | 2h 27m | 18</div>
+            <div class="movie-rating">
+               8/10
+                
+            </div>
+            <div class="description">
+                Teddy Daniels and Chuck Aule, two US marshals, are sent to an asylum on a remote island in order to investigate the disappearance of a patient, where Teddy uncovers a shocking truth about the place.</div>
+        </div>
+    </div>
+
+</body>
+</html>
